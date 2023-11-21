@@ -1,1 +1,42 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/10433/10433049.png">
+    <title>My Dictionary</title>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="header">
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+                <span class="heading">My DICTIONARY App<span class="hist-text">History</span></span>
+            </div>
+            <div class="history-btn">
+                <button type="button" id="history">HISTORY</button>
+            </div>
+        </div>
+        <div class="searchpage">
+            <div class="search-word">
+                <span class="search-text">Search for new word</span>
+            </div>
+            <div class="searchbar">
+                <input type="text" id="input" placeholder="Enter here">
+                <img src="https://cdn-icons-png.flaticon.com/512/6338/6338475.png" alt="search-button" id="searchbtn">
+            </div>
+            <span class="searching"></span>
+        </div>
+        <div class="history"></div>
+        <div id="result">
+            <div class="inpword"></div>
+            <div class="play"></div>
+            <span class="result"></span>
+        </div>
+    </div>
+<script src="App.js"></script>
+</body>
+</html>
